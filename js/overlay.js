@@ -29,4 +29,20 @@ $(document).ready(function () {
 		$('#btn3').show();
 		$('#btn4').hide();
     });
+    $(".btn5").click(function () {
+        $("#33").show();
+        $('#34').show();
+        $('#35').show();
+        $('#36').show();
+		$('#btn5').hide();
+		$('#btn6').show();
+    });
+	$(".btn6").click(function () {
+        $("#33").hide();
+        $('#34').hide();
+        $('#35').hide();
+        $('#36').hide();
+		$('#btn5').show();
+		$('#btn6').hide();
+    });
 });
